@@ -111,7 +111,7 @@ export default {
 		Transform json data into an CSV file.
 		*/
 		jsonToCSV: function (data) {
-			var csvData = ''
+			var csvData = 'sep=,\r\n'
 
 			if( this.title != null ){
 				if( Array.isArray(this.title) ){
